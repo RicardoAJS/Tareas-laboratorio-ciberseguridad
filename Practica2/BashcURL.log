@@ -1,0 +1,9 @@
+curl --request GET \
+	--url https://pokemon-go1.p.rapidapi.com/pokemon_encounter_data.json \
+	--header 'x-rapidapi-host: pokemon-go1.p.rapidapi.com' \
+	--header 'x-rapidapi-key: 35c1f9d0damsh247d3b0d55183e6p18f615jsn3a0339f4b9f2'
+
+curl --request GET \
+	--url https://pokemon-go1.p.rapidapi.com/shiny_pokemon.json \
+	--header 'x-rapidapi-host: pokemon-go1.p.rapidapi.com' \
+	--header 'x-rapidapi-key: 35c1f9d0damsh247d3b0d55183e6p18f615jsn3a0339f4b9f2'
