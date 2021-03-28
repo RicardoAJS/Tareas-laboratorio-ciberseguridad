@@ -1,0 +1,20 @@
+certutil -hashfile fcfm.jpg sha256
+SHA256 hash de fcfm.jpg:
+17b84bb63499d0a25cb2098da953ebbf2f7d597a5c03b69619d72de789e6844e
+CertUtil: -hashfile comando completado correctamente.
+
+
+certutil -hashfile msg.txt sha256
+SHA256 hash de msg.txt:
+34dfde0dc0f3a2fab4c3ed0b19730547e7ab9c7a1272f28e4e8da3557b6c8f11
+CertUtil: -hashfile comando completado correctamente.
+
+certutil -hashfile mystery_img2.txt sha256
+SHA256 hash de mystery_img2.txt:
+b41664282332734436e93fe3c3e5261a0d1a2e93085d3e445168ab8abd94e5f4
+CertUtil: -hashfile comando completado
+
+certutil -hashfile mystery_img.txt sha256
+SHA256 hash de mystery_img.txt:
+f80511dcd72cbfbf9e1a857f19e52b154124baa14a8d03fc10fa08be99406964
+CertUtil: -hashfile comando completado correctamente
